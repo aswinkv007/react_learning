@@ -1,0 +1,96 @@
+
+
+
+  
+  html {
+    height: 100%;
+    background: #D5E1ED;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: lightgray;
+  }
+  
+  /* Input */
+  .box {
+
+    border-radius: 1rem;
+    box-shadow: 
+      4px 2px 16px rgba(57, 94, 124, 0.5), 
+      -4px -2px 16px #FFFFFF;
+    cursor: pointer;
+    padding: 0px;
+  }
+  
+  .box input {
+    padding: 1.5rem;
+    border: solid 1px #607D8B;
+    border-radius: .75rem;
+    outline: none;
+    background: none;
+    transition: all .2s ease-in-out;
+  }
+  
+  .box input:focus {
+    box-shadow: 
+      inset 4px 2px 8px rgba(135, 165, 190, 0.5), 
+      inset -4px -2px 8px #FFFFFF;
+  }
+  
+  
+  
+ 
+  
+  .list{
+
+    width: 100%;
+    margin-top: 10px;
+    font-size: 12px;
+    box-shadow: 4px 2px 16px rgba(57, 94, 124, 0.5), -4px -2px 16px #FFFFFF;
+    padding: 8px;
+    min-height: 15px;
+    
+  }
+
+  li i{
+    cursor: pointer; 
+    float: right;
+    /* flex: 1;
+    text-align: right;
+    cursor: pointer; */
+    /* top: -7px;
+    position: relative; */
+  }
+
+li{
+    /* display: flex; */
+    float: right;
+    list-style: none;
+    height: 10px;
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+}
+
+
+.listcontent{
+float: left;
+/* height: 0px; */
+margin: 0px;
+}
+
+.heading{
+float: right;
+    width: 175px;
+}
+
+.heading h2 {
+    margin: 16px;
+}
